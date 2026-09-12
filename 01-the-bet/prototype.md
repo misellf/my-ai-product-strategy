@@ -1,19 +1,19 @@
 # The Prototype Bet
 
 ## What I Built
-<!-- One sentence: what does this prototype demonstrate? -->
+ProdPriority: a one-page, dark-theme AI Oracle and Copilot web application that helps Product Managers and Chief Product Officers validate product hypotheses or synthesize findings from organizational data to support evidence-based prioritization decisions.
 
 ## Tool Used
-<!-- v0 / Cursor / Lovable / other -->
+AI-powered web app prototype with hypothesis validation, data synthesis, insight generation, prioritization, and recommendation capabilities.
 
 ## Prototype Link
-<!-- Paste the shareable URL -->
+http://localhost:8080
 
 ## AI Value Archetype
-<!-- Automator / Copilot / Oracle / Creator / Orchestrator -->
+Oracle / CoPilot. The AI analyzes organizational data, validates assumptions, identifies themes, and recommends priorities aligned to business strategy based on prompts from Product Managers or Chief Product Owners.
 
 ## The Bet in One Sentence
-<!-- What you're building, for whom, why now -->
+Product leaders will make faster, more confident prioritization decisions when AI automatically validates hypotheses and synthesizes organizational signals into strategic recommendations.
 
 ## Kill Criteria
-<!-- When would you stop? What evidence would kill this bet? -->
+If the AI cannot consistently generate actionable, trustworthy insights that improve prioritization decisions, or if product leaders do not adopt the recommendations as part of their decision-making process, the product should be discontinued.

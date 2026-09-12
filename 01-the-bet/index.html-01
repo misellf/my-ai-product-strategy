@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ProdPriority — AI Oracle + CoPilot</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <main class="app">
+      <header class="topbar">
+        <div>
+          <h1>ProdPriority</h1>
+          <p class="subtitle">AI Oracle + CoPilot for evidence-based product prioritization</p>
+        </div>
+        <span class="badge">No Login • One Page • Prototype</span>
+      </header>
+
+      <section class="panel input-panel">
+        <h2>Define Your Decision Context</h2>
+
+        <div class="grid two">
+          <div class="field">
+            <label for="productMode">Product Type</label>
+            <select id="productMode">
+              <option value="new">New Product</option>
+              <option value="existing">Existing Product</option>
+            </select>
+          </div>
+
+          <div class="field" id="existingProductWrap" hidden>
+            <label for="existingProduct">Select Existing Product</label>
+            <select id="existingProduct">
+              <option value="Mobile Onboarding">Mobile Onboarding</option>
+              <option value="Retention Engine">Retention Engine</option>
+              <option value="Team Workspace">Team Workspace</option>
+              <option value="Billing & Plans">Billing & Plans</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="field">
+          <label>Task Type</label>
+          <div class="segmented" id="taskType">
+            <button class="seg active" data-value="hypothesis">Test Hypothesis</button>
+            <button class="seg" data-value="synthesis">Synthesize Findings</button>
+          </div>
+        </div>
+
+        <div id="hypothesisSection" class="field">
+          <label for="hypothesisInput">Hypothesis</label>
+          <textarea
+            id="hypothesisInput"
+            rows="4"
+            placeholder="Example: If we reduce onboarding steps from 7 to 4, activation rate will increase by 15% for SMB users."
+          ></textarea>
+        </div>
+
+        <div id="synthesisSection" class="field" hidden>
+          <label>Data Sources</label>
+          <div class="checks">
+            <label><input type="checkbox" value="Customer Interviews" checked /> Customer Interviews</label>
+            <label><input type="checkbox" value="NPS Comments" checked /> NPS Comments</label>
+            <label><input type="checkbox" value="Support Tickets" checked /> Support Tickets</label>
+            <label><input type="checkbox" value="Product Analytics Events" checked /> Product Analytics Events</label>
+            <label><input type="checkbox" value="Roadmap & OKRs" checked /> Roadmap & OKRs</label>
+            <label><input type="checkbox" value="Sales Call Notes" /> Sales Call Notes</label>
+            <label><input type="checkbox" value="Competitive Intelligence" /> Competitive Intelligence</label>
+          </div>
+        </div>
+
+        <button id="analyzeBtn" class="cta">Generate AI Findings</button>
+      </section>
+
+      <section class="panel output-panel">
+        <h2>AI Findings</h2>
+        <div id="emptyState" class="empty">
+          Your decision output will appear here after analysis.
+        </div>
+        <div id="result" hidden></div>
+      </section>
+    </main>
+
+    <script src="./app.js"></script>
+  </body>
+</html>

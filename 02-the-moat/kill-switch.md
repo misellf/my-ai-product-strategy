@@ -4,16 +4,16 @@
 
 | Dimension | Current State | Risk Level | 48-Hour Action |
 |-----------|--------------|------------|---------------|
-| **Provider** | | H / M / L | |
-| **Abstraction** | | H / M / L | |
-| **Routing** | | H / M / L | |
-| **Eval** | | H / M / L | |
+| **Provider** | Current AI agent leveraging Claude LLM | H | Integrate additional providers LLM |
+| **Abstraction** | Generic Interface | L | Ensure secure interface with alternate provider|
+| **Routing** | Tasks are routed based on cost| M | Task routing should be based on alternate providers cost model |
+| **Eval** | Current testing and monitoring in place | L | Existing testing will be sufficient for new provider |
 
 ## Portability Score
-<!-- Ready / Partial / Locked -->
+Locked
 
 ## If [primary vendor] doubles pricing tomorrow:
-<!-- What's your 48-hour response? -->
+Limit number of available tokens per user, restrict access to high cost LLMs while transitioning interface to new provider
 
 ## If [primary vendor] ships a competing product:
-<!-- What's defensible that they can't replicate? -->
+Our vendor will have no access to any propriety data or any data generated while using the vendor. 

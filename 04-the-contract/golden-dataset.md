@@ -55,13 +55,18 @@
 
 | Metric | Target | Measurement | Alert Threshold |
 |--------|--------|-------------|-----------------|
-| Accuracy | | | |
-| Hallucination rate | | | |
-| Latency (p95) | | | |
-| Drift velocity | | | |
+| Accuracy | 95% | Percentage of golden-dataset cases that meet all rule-based requirements and achieve the minimum LLM-judge score | <85% → route to human review queue |
+| Hallucination rate | <1% | Percentage of sampled outputs containing claims, evidence, sources, or metrics that cannot be verified against the supplied data | >2% → page on-call |
+| Latency (p95) | <500ms | 95th-percentile end-to-end response time measured from request submission to the start of the AI response | >5s → route to human review queue |
+| Drift velocity | <0.5%/4w | Four-week change in golden-dataset accuracy, hallucination rate, and confidence calibration compared with the approved baseline | >1%/4w → trigger gold-set audit |
 
 ## HITL Architecture
-<!-- When does a human step in? What's the escalation path? -->
+
+**Trigger:** Route an output to human review when confidence is below 50%, evidence is missing or contradictory, the recommendation involves a high-risk or high-value investment decision, the user flags the output, or a reliability threshold is breached.
+
+**Reviewer:** The accountable Product Manager or product leader, supported by the relevant domain expert—such as Engineering, Architecture, Data, Risk, Finance, or Customer Experience—when specialized review is required.
+
+**Feedback loop:** Capture the reviewer’s decision, corrections, rationale, and supporting evidence as structured feedback. Periodically review this feedback to update the golden dataset, evaluation rules, prompts, routing logic, and model configuration. Corrections must be validated before they influence future model behaviour and should not automatically retrain the model.
 
 ## Red-Team Findings
 *What failure mode did your partner find that you missed?*

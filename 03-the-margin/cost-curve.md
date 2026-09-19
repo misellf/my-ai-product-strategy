@@ -4,12 +4,13 @@
 
 | Cost Category | Per-User/Month | Notes |
 |--------------|----------------|-------|
-| Inference (primary model) | $15| |
-| Inference (cascading/triage) |$8 | |
-| Infrastructure |$0.75 | |
-| Data/storage | $1.5| |
-| Human-in-the-loop |$0 | |
+| Inference (primary model) | $15| Cost of frontier-model requests requiring complex analysis, multi-step reasoning, or higher accuracy.
+| Inference (cascading/triage) |$8 |Cost of the mid-tier model used to process initial requests and resolve lower-complexity tasks.|
+| Infrastructure |$0.75 | Cloud compute, application hosting, APIs, monitoring, and supporting services.
+| Data/storage | $1.5| Storage and retrieval of conversations, product data, insights, embeddings, and usage logs.
+| Human-in-the-loop |$0 |No routine human review is required; users validate insights through the normal decision-making process.|
 | **Total AI COGS** | $26.25| |
+
 
 ## Cascading Strategy
 <!-- Cheap model → frontier model routing logic -->

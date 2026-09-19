@@ -14,17 +14,21 @@
 ## Cascading Strategy
 <!-- Cheap model → frontier model routing logic -->
 
-Triage model:
+**Triage model:**
 
 **Frontier model:**
+
 **Routing rule:**
+
 **Expected cascade ratio:**
 
 ## Pricing Model
 
 **Current pricing:**
+
 **Proposed AI pricing:**
-**Model:** seat-based / usage-based / outcome-based / hybrid
+
+**Model:** outcome-based 
 
 ## Stress Tests
 

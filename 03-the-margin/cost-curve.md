@@ -25,14 +25,20 @@
 ## Pricing Model
 
 **Strategy posture:** Maximize
+
 **Pricing model:** Outcome / Resolution
+
 **Unit of work metered:** Resolved conversations
-**Base fee ($/month):** 0
+
+**Base fee ($/month):** $0
+
 **Price per unit:** $35
+
 **Estimated units/user/month:** 4
+
 **Implied revenue/user/month:** $140.00
 
-Decision Note
+### Decision Note
 As an internal AI product, its value comes from helping product managers and leaders make faster, better-informed investment and prioritization decisions. By providing timely insights into customer problems, opportunities, and hypotheses, the product reduces uncertainty, avoids investment in low-value initiatives, and directs resources toward opportunities most likely to generate measurable business value.
 
 

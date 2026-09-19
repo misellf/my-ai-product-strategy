@@ -45,18 +45,18 @@ As an internal AI product, its value comes from helping product managers and lea
 | Model provider raises prices 50% | 64.1% ($89.75)| Shift eligible workloads to lower-cost models, negotiate committed-volume pricing, maintain provider flexibility, and introduce a pricing-adjustment mechanism to protect margins from sustained increases. |
 
 
-# Margin Calculator, Module 3
+# Margin Calculator
 
 ## Inputs
-- Avg requests/user/month: 1750
-- Blended cost/request: $0.015
-- Revenue/user/month: $140
-- Non-AI COGS/user/month: $2
+**Avg requests/user/month:** 1750
+**Blended cost/request:** $0.015
+**Revenue/user/month:** $140
+**Non-AI COGS/user/month:** $2
 
 ## Current Margin
-- AI COGS/user: $26.25
-- Total COGS/user: $28.25
-- Gross margin: 79.8% ($111.75/user)
+**AI COGS/user:** $26.25
+**Total COGS/user:** $28.25
+**Gross margin:** 79.8% ($111.75/user)
 
 ## Stress Test
 | Scenario | AI COGS | Margin |
@@ -68,18 +68,19 @@ As an internal AI product, its value comes from helping product managers and lea
 ## Board One-Pager
 <!-- Before/After: Old SaaS revenue vs. AI usage revenue for your product -->
 
-Before, Traditional SaaS
+#Before, Traditional SaaS
 
-Revenue: $100/seat × 1 seat
-COGS: $12.00 (fixed)
-Gross margin: 88.0%
+**Revenue:** $100/seat × 1 seat
+**COGS:** $12.00 (fixed)
+**Gross margin:** 88.0%
 
-After, AI-Powered
+#After, AI-Powered
 
-Revenue: $0 base + $35 × 4 outcomes
-COGS: $28.25 (variable)
-Gross margin: 79.8%
+**Revenue:** $0 base + $35 × 4 outcomes
+**COGS:** $28.25 (variable)
+**Gross margin:** 79.8%
 
-Net margin shift
+#Net margin shift
 
-Δ margin %: −8.2 percentage points · Δ gross $: +$23.75 per user/month
+**margin %:** −8.2 percentage points
+**gross $:** +$23.75 per user/month

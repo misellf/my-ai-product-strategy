@@ -68,19 +68,24 @@ As an internal AI product, its value comes from helping product managers and lea
 ## Board One-Pager
 <!-- Before/After: Old SaaS revenue vs. AI usage revenue for your product -->
 
-#Before, Traditional SaaS
+# Before, Traditional SaaS
 
 **Revenue:** $100/seat × 1 seat
+
 **COGS:** $12.00 (fixed)
+
 **Gross margin:** 88.0%
 
-#After, AI-Powered
+# After, AI-Powered
 
 **Revenue:** $0 base + $35 × 4 outcomes
+
 **COGS:** $28.25 (variable)
+
 **Gross margin:** 79.8%
 
 #Net margin shift
 
 **margin %:** −8.2 percentage points
+
 **gross $:** +$23.75 per user/month

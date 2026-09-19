@@ -40,9 +40,10 @@ As an internal AI product, its value comes from helping product managers and lea
 
 | Scenario | Impact on Margin | Response |
 |----------|-----------------|----------|
-| Inference costs 3x | 42.3% ($59.25) |
-| Heaviest segment doubles | 61.1% ($85.50) |
-| Model provider raises prices 50% | | |
+| Inference costs 3x | 42.3% ($59.25) | Increase model-routing efficiency, reduce unnecessary tokens and retries, use caching, and reserve the frontier model for requests where it materially improves the outcome. Consider increasing the outcome price if higher costs persist.
+| Heaviest segment doubles | 61.1% ($85.50) | Introduce usage tiers or volume-based outcome pricing, monitor high-usage users, apply reasonable usage limits, and optimize workflows generating disproportionate model calls.
+| Model provider raises prices 50% | 64.1% ($89.75)| Shift eligible workloads to lower-cost models, negotiate committed-volume pricing, maintain provider flexibility, and introduce a pricing-adjustment mechanism to protect margins from sustained increases. |
+
 
 # Margin Calculator, Module 3
 

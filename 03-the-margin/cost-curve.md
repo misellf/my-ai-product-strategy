@@ -56,9 +56,11 @@ As an internal AI product, its value comes from helping product managers and lea
 
 **Non-AI COGS/user/month:** $2
 
-## Current Margin
+### Current Margin
 **AI COGS/user:** $26.25
+
 **Total COGS/user:** $28.25
+
 **Gross margin:** 79.8% ($111.75/user)
 
 ## Stress Test
@@ -71,7 +73,7 @@ As an internal AI product, its value comes from helping product managers and lea
 ## Board One-Pager
 <!-- Before/After: Old SaaS revenue vs. AI usage revenue for your product -->
 
-## Before, Traditional SaaS
+### Before, Traditional SaaS
 
 **Revenue:** $100/seat × 1 seat
 
@@ -79,7 +81,7 @@ As an internal AI product, its value comes from helping product managers and lea
 
 **Gross margin:** 88.0%
 
-## After, AI-Powered
+### After, AI-Powered
 
 **Revenue:** $0 base + $35 × 4 outcomes
 
@@ -87,7 +89,7 @@ As an internal AI product, its value comes from helping product managers and lea
 
 **Gross margin:** 79.8%
 
-#Net margin shift
+### Net margin shift
 
 **margin %:** −8.2 percentage points
 

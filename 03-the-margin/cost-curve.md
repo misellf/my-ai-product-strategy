@@ -4,12 +4,12 @@
 
 | Cost Category | Per-User/Month | Notes |
 |--------------|----------------|-------|
-| Inference (primary model) | | |
-| Inference (cascading/triage) | | |
-| Infrastructure | | |
-| Data/storage | | |
-| Human-in-the-loop | | |
-| **Total AI COGS** | | |
+| Inference (primary model) | $22| |
+| Inference (cascading/triage) |$8 | |
+| Infrastructure |$0.5 | |
+| Data/storage | $1.5| |
+| Human-in-the-loop |$0 | |
+| **Total AI COGS** | $32| |
 
 ## Cascading Strategy
 <!-- Cheap model → frontier model routing logic -->

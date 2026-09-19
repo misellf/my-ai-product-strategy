@@ -45,7 +45,7 @@ As an internal AI product, its value comes from helping product managers and lea
 | Model provider raises prices 50% | 64.1% ($89.75)| Shift eligible workloads to lower-cost models, negotiate committed-volume pricing, maintain provider flexibility, and introduce a pricing-adjustment mechanism to protect margins from sustained increases. |
 
 
-# Margin Calculator
+## Margin Calculator
 
 ## Inputs
 **Avg requests/user/month:** 1750
@@ -68,7 +68,7 @@ As an internal AI product, its value comes from helping product managers and lea
 ## Board One-Pager
 <!-- Before/After: Old SaaS revenue vs. AI usage revenue for your product -->
 
-# Before, Traditional SaaS
+## Before, Traditional SaaS
 
 **Revenue:** $100/seat × 1 seat
 
@@ -76,7 +76,7 @@ As an internal AI product, its value comes from helping product managers and lea
 
 **Gross margin:** 88.0%
 
-# After, AI-Powered
+## After, AI-Powered
 
 **Revenue:** $0 base + $35 × 4 outcomes
 

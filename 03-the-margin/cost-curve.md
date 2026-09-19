@@ -15,6 +15,7 @@
 <!-- Cheap model → frontier model routing logic -->
 
 Triage model:
+
 **Frontier model:**
 **Routing rule:**
 **Expected cascade ratio:**

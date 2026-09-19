@@ -21,13 +21,35 @@
 
 ## Confidence UX Design
 
-**Approach:** show uncertainty / tiered confidence / human-in-loop trigger
+**Approach:** Show uncertainty + tiered confidence. 
 
-**High confidence (>90%):**
-**Medium confidence (70-90%):**
-**Low confidence (<70%):**
+### High confidence (>90%)
 
-**User control surface:**
+**UI + copy when you're sure:** Display a green "High confidence" indicator with a clear prioritization recommendation, concise rationale, supporting evidence, source citations, and the key factors influencing the recommendation.
+
+**Example copy:** "High confidence: Prioritize the onboarding improvement. Customer interviews and usage analytics consistently identify onboarding as a significant source of customer drop-off."
+
+### Medium Confidence (70 to 90%)
+
+**What visibly softens?** Display an amber "Moderate confidence" indicator. Use qualified language such as "evidence suggests" or "consider," show conflicting or missing evidence, present alternative interpretations, and recommend the next validation step.
+
+**Example copy:** "Moderate confidence: Evidence suggests identity verification may contribute to onboarding abandonment, but additional customer research is needed before committing significant investment."
+
+### Low Confidence (<70%)
+
+**Block · escalate · human queue?** Do not generate a definitive priority recommendation. Display a red "Low confidence" indicator, explain why confidence is low, identify the evidence required, and ask the Product Manager or product leader to review the findings or provide more information.
+
+**Example copy:** "Low confidence: There is not enough reliable evidence to recommend an investment decision. Validate customer demand, expected value, strategic alignment, and delivery feasibility before proceeding."
+
+**Users adjust threshold?** Y — authorized users can adjust thresholds within defined governance limits based on the risk and importance of the decision.
+
+**See AI reasoning?** Y — users can view a concise decision rationale, evidence summary, assumptions, confidence factors, and source citations, but not the model's private chain of thought.
+
+**Correct & override?** Y — users can correct evidence, challenge assumptions, or override a recommendation. Overrides require a short rationale to maintain an auditable decision record.
+
+**Corrections → model?** Y — corrections are captured as structured feedback for evaluation and future model improvement after review; they do not automatically retrain or immediately alter the model.
+
+
 
 ## Reliability Contract
 

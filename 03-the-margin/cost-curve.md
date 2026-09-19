@@ -47,10 +47,13 @@ As an internal AI product, its value comes from helping product managers and lea
 
 ## Margin Calculator
 
-## Inputs
+### Inputs
 **Avg requests/user/month:** 1750
+
 **Blended cost/request:** $0.015
+
 **Revenue/user/month:** $140
+
 **Non-AI COGS/user/month:** $2
 
 ## Current Margin

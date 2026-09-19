@@ -14,7 +14,7 @@
 ## Cascading Strategy
 <!-- Cheap model → frontier model routing logic -->
 
-**Triage model:**
+Triage model:
 **Frontier model:**
 **Routing rule:**
 **Expected cascade ratio:**

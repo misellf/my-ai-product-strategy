@@ -14,13 +14,13 @@
 ## Cascading Strategy
 <!-- Cheap model → frontier model routing logic -->
 
-**Triage model:**
+**Triage model:** Mid, Medium-cost Model
 
-**Frontier model:**
+**Frontier model:** Advanced reasoning model
 
-**Routing rule:**
+**Routing rule:** Route all requests to the triage model first. Escalate to the frontier model when the request is complex, high-risk, requires multi-step reasoning, or the triage model’s confidence is below the agreed threshold.
 
-**Expected cascade ratio:**
+**Expected cascade ratio:** 60%/40%
 
 ## Pricing Model
 

@@ -71,6 +71,41 @@ The classification must be reassessed if ProdPriority is extended to employment,
 
 ## Shadow AI Audit
 
+| Workaround | Signal | Frequency | Decision |
+|---|---|---|---|
+| Users paste ProdPriority recommendations into ChatGPT or Copilot to verify the analysis, challenge the recommendation, or get a second opinion. | trust | H | build |
+| Users manually copy customer feedback, Jira issues, analytics, support tickets, and strategy documents into ProdPriority. | workflow | H | partner |
+| Users export insights into spreadsheets to apply their own scoring, weighting, and prioritization formulas. | capability | H | build |
+| Users use Zapier or Make to move data between ProdPriority, Jira, Confluence, Slack, CRM, and analytics tools. | workflow | M | partner |
+| Users manually trace recommendations back to source documents because they need evidence for leadership discussions. | trust | H | build |
+| Users paste ProdPriority outputs into presentation or document tools to create executive summaries and business cases. | workflow | M | partner |
+| Users combine outputs from several lower-cost AI tools rather than using the frontier-model analysis for every request. | pricing | M | build |
+| Users maintain a separate decision log to record whether recommendations were accepted, rejected, or changed and whether the expected outcome was achieved. | capability | M | build |
+
+**Workarounds**
+
+Users are moving data manually between organizational systems, validating recommendations in external AI tools, recreating prioritization models in spreadsheets, tracing evidence manually, building leadership materials outside the product, and maintaining separate records of decisions and outcomes.
+
+**Build candidates**
+
+- Source-level citations and an evidence trace showing how each insight supports the recommendation.
+- Configurable prioritization criteria, weights, and scenario comparisons.
+- A challenge mode that generates counterarguments, alternative interpretations, and missing evidence.
+- A decision and outcome log capturing accept, reject, or override decisions and their rationales.
+- Automatic model routing so lower-cost models handle routine tasks and frontier models handle complex analysis.
+- Exportable executive summaries and decision-ready reports.
+
+**Partner candidates**
+
+- Jira and Confluence for delivery and product-planning information.
+- CRM, customer-support, analytics, and research platforms for organizational evidence.
+- Zapier or Make for long-tail integrations.
+- Presentation and document platforms for executive-ready outputs.
+
+**Adjacent spend**
+
+**$200/team/month**, as an initial planning assumption covering external AI assistants, workflow-automation tools, spreadsheet or prioritization tools, and reporting applications. Validate this estimate through user interviews and procurement or expense data.
+
 | Tool | Owner | Risk Level | Decision |
 |------|-------|-----------|----------|
 | | | H / M / L | keep / govern / kill |

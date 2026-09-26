@@ -10,11 +10,11 @@
 | **Cross-Domain Transfer** | Validated signals from Product, Customer Support, Sales, Engineering, Architecture, Risk, Finance, and business strategy | Reusable patterns and insights that improve prioritization across products, teams, and business domains | Y | missing |
 | **Network Intelligence** | Anonymized recommendation usage, acceptance and override rates, decision rationales, and realized business outcomes across teams | Organization-wide benchmarks, recurring opportunity patterns, stronger confidence scores, and better recommendations for all users | Y | missing |
 
-**Broken loop (partner found)**
+**Broken loop**
 
 AI recommendation → product leader decision → business outcome is not connected back to the system → fix: assign each recommendation a decision ID, capture whether it was accepted, changed, or rejected, record the rationale, connect it to agreed outcome metrics, and use the results to update evaluations, confidence scoring, prompts, and routing rules.
 
-**Test: freeze 3 months (≈one frontier cycle), still win? If yes, you're not compounding.**
+**Test: freeze 3 months**
 
 **Current answer: Yes.** The prototype could continue synthesizing data and producing recommendations for three months without materially improving. This shows that it currently scales analysis but does not yet compound knowledge. To create a defensible learning system, recommendation decisions and realized outcomes must feed back into future prioritization, confidence calibration, and evaluation.
 

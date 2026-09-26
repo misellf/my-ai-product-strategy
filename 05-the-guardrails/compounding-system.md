@@ -14,17 +14,14 @@
 
 AI recommendation → product leader decision → business outcome is not connected back to the system → fix: assign each recommendation a decision ID, capture whether it was accepted, changed, or rejected, record the rationale, connect it to agreed outcome metrics, and use the results to update evaluations, confidence scoring, prompts, and routing rules.
 
-**Context Connectivity**
-
-**where knowledge silos:** Customer feedback, product analytics, support tickets, CRM and sales data, Jira delivery data, strategy and OKRs, financial information, architecture decisions, and risk assessments are stored in separate systems and interpreted by different teams. ProdPriority must connect these sources through common product, customer, opportunity, and decision identifiers.
-
 **Test: freeze 3 months (≈one frontier cycle), still win? If yes, you're not compounding.**
 
 **Current answer: Yes.** The prototype could continue synthesizing data and producing recommendations for three months without materially improving. This shows that it currently scales analysis but does not yet compound knowledge. To create a defensible learning system, recommendation decisions and realized outcomes must feed back into future prioritization, confidence calibration, and evaluation.
 
 
 ## Context Connectivity
-<!-- How does knowledge flow across teams and domains? Where does it silo? -->
+
+**where knowledge silos:** Customer feedback, product analytics, support tickets, CRM and sales data, Jira delivery data, strategy and OKRs, financial information, architecture decisions, and risk assessments are stored in separate systems and interpreted by different teams. ProdPriority must connect these sources through common product, customer, opportunity, and decision identifiers.
 
 ## Governance Policy
 

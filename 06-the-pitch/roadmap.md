@@ -73,5 +73,10 @@ Approve $1 million for two engineers, one Product Manager, and one Business Anal
 *Your 3-sentence AI strategy from Module 1 vs. what you'd say now:*
 
 **M1 baseline:**
+ProdPriority will help Product Managers and product leaders make faster, better-informed prioritization decisions.
+It will bring together information from across the organization to help validate product problems and opportunities.
+The goal is to reduce uncertainty and focus investment on work that supports the business strategy.
 
 **Now:**
+ProdPriority is a governed decision-intelligence product that turns fragmented organizational evidence into traceable recommendations while keeping product leaders accountable for investment decisions.
+Its advantage comes from connecting evidence, recommendations, human corrections, decisions, and business outcomes into a learning loop that improves over time.

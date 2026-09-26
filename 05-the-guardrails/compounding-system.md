@@ -106,12 +106,17 @@ Users are moving data manually between organizational systems, validating recomm
 
 **$200/team/month**, as an initial planning assumption covering external AI assistants, workflow-automation tools, spreadsheet or prioritization tools, and reporting applications. Validate this estimate through user interviews and procurement or expense data.
 
-| Tool | Owner | Risk Level | Decision |
-|------|-------|-----------|----------|
-| | | H / M / L | keep / govern / kill |
-| | | H / M / L | keep / govern / kill |
-| | | H / M / L | keep / govern / kill |
+## Shadow AI Tool Inventory
 
-**Total tools found:**
-**Tools after triage:**
-**Estimated hidden spend:**
+| Tool | Owner | Risk Level | Decision |
+|---|---|---|---|
+| External AI assistants such as ChatGPT or Copilot, used to verify or rewrite ProdPriority recommendations | Product Managers and product leaders | H | govern |
+| Zapier or Make automations connecting product, customer, and organizational data sources | Product Operations | H | govern |
+| Spreadsheets used for custom scoring, weighting, prioritization, and decision tracking | Product Managers | M | govern |
+| Jira and Confluence integrations used to retrieve planning, delivery, and strategy information | Product Operations and Technology | M | keep |
+| BI and analytics tools used to validate trends and product-performance evidence | Data and Analytics | L | keep |
+| Unapproved AI prioritization or document-analysis tools receiving confidential organizational data | Individual users or unknown | H | kill |
+
+**Total tools found:** 6  
+**Tools after triage:** 5  
+**Estimated hidden spend:** $200/team/month

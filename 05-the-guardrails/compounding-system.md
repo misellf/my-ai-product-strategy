@@ -21,14 +21,7 @@ AI recommendation → product leader decision → business outcome is not connec
 **Test: freeze 3 months (≈one frontier cycle), still win? If yes, you're not compounding.**
 
 **Current answer: Yes.** The prototype could continue synthesizing data and producing recommendations for three months without materially improving. This shows that it currently scales analysis but does not yet compound knowledge. To create a defensible learning system, recommendation decisions and realized outcomes must feed back into future prioritization, confidence calibration, and evaluation.
-| Loop | Input | Output | Compounds? | Status |
-|------|-------|--------|-----------|--------|
-| | | | Y/N | active / broken / missing |
-| | | | Y/N | active / broken / missing |
-| | | | Y/N | active / broken / missing |
 
-**Broken loop identified by partner:**
-**Fix plan:**
 
 ## Context Connectivity
 <!-- How does knowledge flow across teams and domains? Where does it silo? -->

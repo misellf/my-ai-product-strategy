@@ -54,18 +54,20 @@ Kill **Generate executive decision briefs** as a standalone initiative today and
 ## Board Pitch
 
 **Thesis (1 sentence):**
+ProdPriority will help product leaders identify and act on the opportunities most likely to advance business strategy by turning fragmented organizational evidence into faster, traceable prioritization decisions.
 
 **The case:**
-1. Why now:
-2. What's defensible:
-3. The economics:
+1. Why now: The CEO has identified slow opportunity identification and prioritization as a competitive constraint, while the evidence required to make those decisions remains fragmented across product, customer, delivery, financial, risk, and strategy systems. ProdPriority addresses that internal urgency, but the strategy does not yet quantify the current decision-cycle time, cost of poor prioritization, or value lost through delayed decisions; establishing that baseline is the first requirement of the pilot.
+2. What's defensible: The intended M2 moat is a proprietary decision-outcome dataset that connects organizational evidence, AI recommendations, human decisions, corrections, and realized business outcomes. General-purpose platforms can reproduce the visible recommendation experience, but they cannot immediately reproduce this organization-specific history or its integration into product-investment workflows. That moat does not exist yet: the recursive-learning loop is broken, cross-domain transfer and network intelligence are missing, and workflow depth is limited. The six-month investment must prove that the learning loop measurably improves recommendation quality and creates switching costs.
+3. The economics: At $140 revenue and $28.25 total COGS per user per month, ProdPriority produces $111.75 in gross profit and a 79.8% gross margin. If AI COGS triples, margin falls to 42.3% and gross profit to $59.25; if usage doubles without additional revenue, margin falls to 61.1% and gross profit to $85.50. The planned 60% triage and 40% frontier-model cascade must keep AI COGS at or below $26.25 per user per month without reducing reliability. Outcome pricing is still an assumption: the pilot must establish what qualifies as a resolved conversation, whether internal buyers accept $35 per outcome, and whether outcomes can be measured consistently.
 
 **The risks:**
-1. Trust / failure modes:
-2. Scale / governance:
-3. Competitive:
+1. Trust / failure modes: The critical failure is a confident recommendation that directs material investment toward the wrong opportunity because the evidence was incomplete, outdated, duplicated, manipulated, or missing an important cross-functional signal. ProdPriority addresses this with source-level citations, visible uncertainty, human escalation, a 95% accuracy target, a hallucination target below 1%, and release-blocking evaluations. The current golden dataset contains only 10 cases, including three adversarial cases, which is insufficient evidence for production reliability; it must be expanded and tested against representative product domains before broader release.
+2. Scale / governance: At 10x usage, the main constraints will be source-system permissions, integration reliability, model cost, low-confidence review volume, audit capacity, and the quality of human corrections entering the learning loop. ProdPriority must retain least-privilege access, preserve source permissions, log every material recommendation and approval, and keep funding and roadmap decisions with accountable product leaders. The current dependence on Claude also creates vendor and pricing exposure; portability must be demonstrated against an alternate provider before enterprise scale.
+3. Competitive: The decisive threat is OpenAI, Palantir, Productboard, or an existing enterprise platform combining organizational search with product-prioritization recommendations before ProdPriority closes its learning loop. If Jira and Confluence integration does not reduce evidence-preparation time by at least 30%, fewer than 60% of pilot recommendations are connected to a decision and measurement plan, or two feedback cycles produce no measurable reliability improvement, we stop expanding the product and reassess build versus buy.
 
 **The ask:**
+Approve $1 million for two engineers, one Product Manager, and one Business Analyst over six months, released through defined reliability, adoption, economics, and governance gates. The investment will deliver a controlled working model with secure evidence ingestion, source citations, tiered confidence, human review, automated regression testing, audit logging, model-cost telemetry, and a pilot with product leadership teams. Success means demonstrating at least 95% evaluation accuracy, less than 1% hallucination, AI COGS at or below $26.25 per user per month, measurable reduction in decision-preparation time, and repeated use in real prioritization decisions. Funding this work pauses executive decision briefs as a standalone initiative, broad cross-domain integrations, network intelligence, and other Horizon 3 capabilities until the core workflow proves reliability, adoption, and decision value.
 
 ## M1 Baseline vs. Now
 *Your 3-sentence AI strategy from Module 1 vs. what you'd say now:*
